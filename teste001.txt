@@ -1,4 +1,6 @@
 1o fontes para teste GIT.
 Segunda modificação 
 alteração pela interface web
-alterando arquivo branch main   
+GIT FLOW
+1) - sempre deixar o codigo de produção na branch master
+2) - sempre criar uma branch a partir da "branch de desenvolvimento"
