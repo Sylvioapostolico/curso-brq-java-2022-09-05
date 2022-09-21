@@ -55,4 +55,15 @@ Obs: exemplo na criação do container
 ```
     docker run  --name NOMEDOCONTAINERDESEJO -p PORTA-HOSPEDEIRO:PORTA-CONTAINER  NOMEDAIMAGEM
     Ex: docker run --name hello-world -p 80:80  docker/getting-started
-```
+
+    # Como podemos  fazer para ao declara um containner, não perdermos os dados dos mesmos?
+
+    Resp: usando o conceito de volue
+
+```docker run -v PASTA_DO_HOSPEDEIRO:PASTA_DO_CONTAINER
+
+    docker rm hello-world
+    
+    docker run --name hello-world -p 80:80 -p 8000:80 -v meu-volume:/meu-volume-container docker/getting-started
+
+    docker run --name hello-world -p 80:80 -p 8000:80 -v ${PWD}/meu-volume:/meu-volume-container docker/getting-started
