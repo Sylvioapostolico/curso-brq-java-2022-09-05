@@ -1,0 +1,3 @@
+2022-11-10 21:05:17 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COTACAO" not found; SQL statement:
+select * from cotacao [42102-214]

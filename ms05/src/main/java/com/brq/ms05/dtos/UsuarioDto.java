@@ -1,6 +1,6 @@
-package com.brq.ms01.dtos;
+package com.brq.ms05.dtos;
 
-import com.brq.ms01.models.UsuarioModel;
+import com.brq.ms05.models.UsuarioModel;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
